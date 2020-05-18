@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.text-center .pagination{
+    justify-content: center;
+}//esto fue para centrar la paginacion, ya que bootstrap usa FLEX
+    
+
+.nvar-laravel{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.04);
+}
+
+.app-form > div{
+    margin-top: 1em;
+}
+
+.padding{
+    padding: 1em;
+}
+
+.actions{
+    margin-top: 1em;
+}
+
+.bg-primary {
+    padding: 1em;
+    background: #251abc;
+  }
+
+  .text-center .pagination{
+      justify-content: center;
+  }
+
+  .payments{
+      img{
+          margin-bottom: 0.5px;
+          display: block;
+      }
+  }
+
+  .card-product{
+      max-width: 400px;
+      margin: 1em 0;
+      strong{
+          text-transform: uppercase;
+      }
+      &.total{
+          margin-top: 2em;
+          padding-top: 2em;
+          border-top: solid 1px #eee;
+      }
+
+  }
+    
